@@ -1,6 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin-top: 200px;
+    /*background: #36d1dc;
+    background: -webkit-linear-gradient(to top, #36d1dc, #5b86e5);
+    background: linear-gradient(to top, #36d1dc, #5b86e5); */
+
+    background: #cb356b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #cb356b, #bd3f32); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cb356b, #bd3f32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .vert-offset-top-0{
     margin-top: 0em;
 }
 .vert-offset-top-2{
     margin-top: 2em;
+}
+
+.todoBox {
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px #fff;
+    border-radius: 4px;
+}
+
+.well {
+    background-color: transparent;
+    border: solid 0px #fff;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    height: 37px;
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px #fff; /*set the color you want here*/
+}
+
+li, .list-group-item, .clearfix {
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 2px #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: transparent;
+    border: solid 1px #fff;
+}
+
+
+
+.btn-success {
+    background-color: transparent;
+    border: solid 1px #fff;
 }
